@@ -9,7 +9,11 @@
   --ifm-color-primary: #a7d9fd;
   --ifm-color-primary-dark: #81caff;
   --ifm-color-primary-darker: #62beff;
-  --ifm-color-primary-darkest: #3fafff;
+  --ifm-color-primary-darkest: #1fa2ff;
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary-darkest);
+  --ifm-link-color: var(--ifm-color-primary-darkest);
+  --ifm-breadcrumb-color-active: var(--ifm-color-primary-darkest);
+  --ifm-menu-color-active: var(--ifm-color-primary-darkest);
   --ifm-color-primary-light: #c4e7ff;
   --ifm-color-primary-lighter: #d3eafa;
   --ifm-color-primary-lightest: #e5f4ff;
