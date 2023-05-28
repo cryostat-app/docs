@@ -3,9 +3,7 @@ RUN apk add git
 RUN apk add bash
 RUN apk update && apk add gnupg wget
 WORKDIR /tmp
-ADD ./src /tmp/src
-ADD ./static /tmp/static
-ADD ./docs /tmp/docs
+ADD . /tmp/
 COPY ["package.json", "package-lock.json",  "/tmp/"]
 RUN npm install && npm run build
 
