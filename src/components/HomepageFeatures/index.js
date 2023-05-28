@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/candlestick-icon.svg').default,
     description: (
       <>
-        Instead of having status pages build based on pings to your service. Have status pages built on thresholds based on real-time data. Updating you and your users when it matters. 
+        Instead of pinging your service. Have status pages built based on real-time data. Updating you and your users when it matters as well as getting internal notifcations for high load.
       </>
     ),
   },
